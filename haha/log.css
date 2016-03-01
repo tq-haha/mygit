@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+.body {color: #404040; background: #0ca3d2;}
+.login {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 20px 20px;
+    width: 310px;
+    background: yellow;
+    border-radius: 3px;
+
+}
+input[type=text]{
+    height: 20px;
+    border:0;
+    border-bottom:5px;
+}
+input[type=submit] {
+    padding: 0 18px;
+    height: 29px;
+    margin:0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    border: 1px solid;
+    border-radius: 16px;
+}
+input[type=button] {
+    padding: 0 18px;
+    height: 29px;
+    margin:0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #527881;
+    border: 1px solid;
+    border-radius: 16px;
+}
+#login,#password {
+    display:inline;
+    border:none;
+    outline:0;
+    border-bottom:2px solid grey;
+}
+
+h1{
+    font-family: "Microsoft YaHei";
+    color:grey;
+    text-align: center;
+}
